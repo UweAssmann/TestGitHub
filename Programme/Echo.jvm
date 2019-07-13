@@ -1,0 +1,37 @@
+Compiled from "Echo.java"
+public class Echo {
+  public Echo();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: iconst_0
+       1: istore_1
+       2: iload_1
+       3: aload_0
+       4: arraylength
+       5: if_icmpge     44
+       8: iload_1
+       9: ifne          24
+      12: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      15: aload_0
+      16: iload_1
+      17: aaload
+      18: invokevirtual #3                  // Method java/io/PrintStream.print:(Ljava/lang/String;)V
+      21: goto          38
+      24: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      27: aload_0
+      28: iload_1
+      29: aaload
+      30: invokedynamic #4,  0              // InvokeDynamic #0:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+      35: invokevirtual #3                  // Method java/io/PrintStream.print:(Ljava/lang/String;)V
+      38: iinc          1, 1
+      41: goto          2
+      44: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      47: ldc           #5                  // String
+      49: invokevirtual #6                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      52: return
+}

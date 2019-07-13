@@ -1,0 +1,32 @@
+#h -F, Father Mother
+# SwedishKingFamily.csv --- raw data in CSV 
+# @author Uwe Aßmann
+# this file can be processed with Fsdb 2.58, the flat file database
+Adam,Gustav Adolf
+Adam,Sibylla
+Adam,Walter Sommerlath
+Adam,Alice Sommerlath
+Adam,Daniel
+Adam,Christopher
+Adam,Sofia
+Walter Sommerlath,Sylvia
+Alice Sommerlath,Sylvia
+Walter Sommerlath,Ralf
+Alice Sommerlath,Ralf
+Gustav Adolf,Desiree
+Sibylla,Desiree
+Gustav Adolf,Carl Gustav
+Sibylla,Carl Gustav
+Carl Gustav,Victoria
+Carl Gustav,Carl Philipp
+Carl Gustav,Madeleine
+Sylvia,Victoria
+Sylvia,Carl Philipp
+Sylvia,Madeleine
+Victoria,Estelle
+Madeleine,Leonore
+Madeleine,Nicolas
+Christopher,Leonore
+Christopher,Nicolas
+Sofia,ToBeBorn_in_2016
+Carl Philipp,ToBeBorn_in_2016
